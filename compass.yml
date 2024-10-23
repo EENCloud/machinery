@@ -1,0 +1,27 @@
+name: machinery
+id: ari:cloud:compass:4337fc0d-aa55-4ff9-bd75-ef7117ff9381:component/4c6fdffe-fa4a-46ef-9e6f-a1aa05480c89/e065bf13-e7ce-4dca-8316-32c67a7fa263
+description: Machinery is an asynchronous task queue/job queue based on distributed message passing.
+configVersion: 1
+typeId: SERVICE
+ownerId: null
+fields:
+  tier: 4
+links:
+  - name: null
+    type: REPOSITORY
+    url: https://github.com/EENCloud/machinery
+relationships:
+  DEPENDS_ON: []
+labels:
+  - language:go
+  - source:github
+customFields:
+  - name: Audit status
+    type: single_select
+    value: null
+  - name: Production deployed
+    type: boolean
+    value: false
+  - name: Requires audit
+    type: boolean
+    value: false
